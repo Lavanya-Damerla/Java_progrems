@@ -1,0 +1,10 @@
+class StudentMarks 
+{
+	public static void main(String[] args) 
+	{
+		int m=93;
+		String r=(m>=90)?"Excelent":(m>=75)?"Good":(m>35)?"Pass":"Fail";
+		System.out.println("Student marks"+m);
+		System.out.println(r);
+	}
+}
